@@ -1,4 +1,4 @@
-FROM node
+FROM hypriot/rpi-node:slim
 MAINTAINER Coderaiser
 
 RUN mkdir -p /usr/src/app
