@@ -12,7 +12,7 @@ RUN npm install --production
 
 COPY . /usr/src/app
 
-ENV cloudcmd_terminal true
+#ENV cloudcmd_terminal true
 #ENV cloudcmd_terminal_path gritty
 
 EXPOSE 8000
